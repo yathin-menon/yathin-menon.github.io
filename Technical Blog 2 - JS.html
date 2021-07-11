@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Yathin's Webpage</title>
+		<link href="styles/main.css" rel="stylesheet" type="text/css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+		
+	</head>
+<style>
+	body {
+		margin: 0;
+		font-family: monospace;
+	}
+	header {
+		background: lightyellow;
+			color: lightyellow;
+			padding: 15px 15px 0 15px;
+	}
+	h1 {
+			color: black;
+			font-size: 50px;
+			font-family: monospace, lobster;
+			background: lightyellow;
+			margin: 0;
+			display: inline;
+	}
+	h2 {
+		color: black;
+		font-size: 40px;
+		font-family: monospace;
+	}
+	body ol {
+		font-family: monospace;
+		font-size: 20px;
+	}
+	</style>
+
+<body>
+	<header>
+		<h1 class="h1">@Yazza's Blog</h1>
+	</header>	
+		<h2 class="h2">Javacript & DOM</h2>
+	<ol>
+        <li><strong>HTML, CSS, & JavaScript</strong></li>
+        <p>HTML or Hypertext Markup Language is the standard and most basic language in use to create web pages. It has a very simple code structure that makes it extremely easy to pick-up and learn compared to any other language. CSS or Cascading Style Sheets is a style sheet language that can be applied to any XML document. Its purpose is to simplify the styling of certain elements so that the written code would be a lot easier to read. </p>
+    
+        <p>HTML is rather simple with a few keywords that are dedicated to formatting certain words, sentences, or paragraphs. It is also quite forgiving with mistakes, still showing some result even when there are errors in the code. This aspect of HTML makes it quite easy to learn and write simple web pages that only contains a small amount of content and formatting. The problem with HTML is it doesn’t really scale that well once you start to develop bigger or fancier pages. Styling could involve multiple keywords in every section and this gets repeated multiple times in a single page, making the page unnecessarily longer. The simple and easy to learn language becomes very convoluted and quite difficult to trace once you’ve made mistakes.</p>
+    
+        <p>CSS was developed to simplify the code in much bigger pages. This doesn’t mean that CSS cannot be used in simpler and less complex pages. CSS can still be beneficial for small pages but the benefits are more apparent as the size of the page grows. CSS does this by creating custom tags that defines the proper font, size, color, margin, and even the background. These custom tags can then be used just like normal HTML keywords like Font and Bold; but instead if just changing one aspect, it changes every aspect to conform to the tag definition. The end result of all this is that you would only need to use one tag to achieve a specific look, and you can use that tag over and over again in your pages. You are also not limited to a single tag, you can create as many as you need to fully stylize your pages.</p>
+    
+        <p>CSS is just a tool that has become popular due to its modularity. It makes web page creation a lot easier to do and troubleshoot. Although you can use CSS in HTML pages, it is not meant for HTML alone. It can also be used on other languages like XML and XHTML among others.</p>
+    
+    <li><strong>Loops & Control Flow</strong></li>
+        <p>One of the most powerful features of JavaScript (and every other programming or scripting language for that matter) is the ability to build intelligence and logic into your web pages. It is vital in constructing scripts to be able to have the script make decisions and repeat tasks until specified criteria are met. For example, if you are developing an e-commerce application you may want to repeatedly ask a user to enter a credit card number until a valid credit card number is entered. Alternatively, you may want your script to loop a specific number of times through a task before moving on to the next part of the script. All of this logic and flow control is achieved using some very simple structures.</p>
+    
+        <p>Conditional statements control whether a part of a script is executed depending the result of a particular expression (i.e. whether an expression returns a boolean true or false value). The two types of conditional structures are if and if ... else. </p>
+
+        <p>The if statement above allows you to specify what should happen if a particular expression evaluates to true. It does not, however, provide the option to specify something else that should happen in the event that the expression evaluates to be false. This is where the if ... else construct comes into play.</p>
+        <p>It is generally common knowledge that computers are great at performing repetitive tasks an infinite number of times, and doing so very quickly. It is also common knowledge that computers really don't do anything unless someone programs them to tell them what to do. Loop statements are the primary mechanism for telling a computer to perform the same task over and over again until a set of criteria are met. This is where for, while and do ... while loops are of use.</p>
+        <p>if ... else constructs work fine if you need to check a value against criteria, for example checking the value of a string against a couple of possible candidates</p>
+
+        <p><em>In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language.
+
+            Within an imperative programming language, a control flow statement is a statement that results in a choice being made as to which of two or more paths to follow. For non-strict functional languages, functions and language constructs exist to achieve the same result, but they are usually not termed control flow statements.
+            
+            A set of statements is in turn generally structured as a block, which in addition to grouping, also defines a lexical scope.
+            
+            Interrupts and signals are low-level mechanisms that can alter the flow of control in a way similar to a subroutine, but usually occur as a response to some external stimulus or event (that can occur asynchronously), rather than execution of an in-line control flow statement.
+            
+            At the level of machine language or assembly language, control flow instructions usually work by altering the program counter. For some central processing units (CPUs), the only control flow instructions available are conditional or unconditional branch instructions, also termed jumps.</em></p>
+          
+    <li><strong>The DOM (Document Object Model)</strong></li>
+        <p>The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated. In the DOM specification, the term "document" is used in the broad sense - increasingly, XML is being used as a way of representing many different kinds of information that may be stored in diverse systems, and much of this would traditionally be seen as data rather than as documents. Nevertheless, XML presents this data as documents, and the DOM may be used to manage this data.
+
+            With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content. Anything found in an HTML or XML document can be accessed, changed, deleted, or added using the Document Object Model, with a few exceptions - in particular, the DOM interfaces for the internal subset and external subset have not yet been specified.</p>
+            <img src="https://www.w3.org/TR/WD-DOM/table.gif" class=img></li>
+        
+    <li><strong>Arrays & Objects</strong></li>
+
+    <p><em>Objects vs Arrays :</em></p>
+
+        If you want to store a bunch of numbers, or a list of objects of the same type, use an array.
+        If what you semantically need is an object with a bunch of properties (of varying types), use an object with properties. That’s pretty efficient in terms of memory, and it’s also pretty fast.
+        Integer-indexed elements, regardless of whether they’re stored in an array or an object, are much faster to iterate over than object properties.
+        Properties on objects are quite complex: they can be created with setters, and with differing enumerability and writability. Items in arrays aren’t able to be customized as heavily — they either exist or they don’t. At an engine level, this allows for more optimization in terms of organizing the memory representing the structure. This is particularly beneficial when the array contains numbers. For example, when you need vectors, don’t define a class with properties x, y, z; use an array instead.</p>
+        
+    <p><em>TIPS WHEN USING OBJECTS :</em></p> 
+        
+        Create objects using a constructor function. This ensures that all objects created with it have the same hidden class and helps avoid changing these classes. As an added benefit, it’s also slightly faster than Object.create()
+        There are no restrictions on the number of different object types you can use in your application or on their complexity (within reason: long prototype chains tend to hurt, and objects with only a handful of properties get a special representation that’s a bit faster than bigger objects). For “hot” objects, try to keep the prototype chains short and the field count low.
+        
+    <p><em> TIPS WHEN USING ARRAYS :</em></p>  
+
+    <p> Next let’s look at a few tips for arrays. In general, don’t delete array elements. It would make the array transition to a slower internal representation. When the key set becomes sparse, V8 will eventually switch elements to dictionary mode, which is even slower.
+        Array literals are useful because they give a hint to the VM about the size and type of the array. They’re typically good for small to medium sized arrays.
+        It’s never a good idea to mix values of different types (e.g. numbers, strings, undefined or true/false) in the same array (i.e. var arr = [1, “1”, undefined, true, “true”])
+        When you use sparse arrays, be aware that accessing elements in them is much slower than in full arrays. That’s because V8 doesn’t allocate a flat backing store for the elements if only a few of them are used. Instead, it manages them in a dictionary, which saves space, but costs time on access.
+        Avoid “holes” in an array (created by deleting elements or a[x] = foo with x > a.length). Even if only a single element is deleted from an otherwise “full” array, things will be much slower.
+        Don’t pre-allocate large arrays (i.e. greater than 64K elements) to their maximum size, instead grow as you go. Before we get to the performance tests for this tip, keep in mind that this is specific to only some JavaScript engines.
+
+    </p>
+
+    <li><strong>Functions</strong></li>
+
+    <p>So why is it useful for C programmers to divide their programs into separate--but cooperating--functions? Why not write every program as one big ``chunk'' of statements?
+
+        Think back again to the homework for the previous lesson, in which you found the positions of a squatter's joints. In that program you used the built-in sine and cosine functions.
+        
+        Those functions were predefined for you, meaning that you didn't have to tell the computer how to compute the sine and cosine of an angle. The work of teaching the computer about sines and cosines had already been done for you. And because that programming job had already been done, you could simply use those functions in your own program, without worrying about how the sine and cosine functions actually worked inside.
+        
+        This example highlights the two most important reasons that C programmers use functions.
+        
+        The first reason is reusability. Once a function is defined, it can be used over and over and over again. You can invoke the same function many times in your program, which saves you work. Imagine what programming would be like if you had to teach the computer about sines every time you needed to find the sine of an angle! You'd never get your program finished!
+        
+        Another aspect of reusability is that a single function can be used in several different (and separate) programs. When you need to write a new program, you can go back to your old programs, find the functions you need, and reuse those functions in your new program. You can also reuse functions that somebody else has written for you, such as the sine and cosine functions.</p>
+        
+    <p>The second reason is abstraction. In order to use a particular function you need to know the following things:</p> 
+        
+    <p>The name of the function;
+        What the function does;
+        What arguments you must give to the function; and
+        What kind of result the function returns.
+        But notice: If you just want to use the function in your program, you don't have to know how it works inside! You don't have to understand anything about what goes on inside the function.</p></li>
+        
+    <p> It's sort of like driving a car or using a telephone. With an automobile, you don't need to understand every detail about the engine and drive train and wheels, if all you want to do is drive the car. Similarly, with a telephone, you don't have to understand everything about the phone system in order to make a call.</p>
+        
+    <p> The only time you need to know how a function works inside is when you need to write the function, or change how it works. (It's like a car again; you need to know how a car works in order to build one or fix one.) But once a function is written and working, you never need to look at its insides again.</p>
+        
+    <p> Together, these two reasons make functions extremely useful--practically essential!-for programmers who write large programs. The ability to divide a program into abstract, reusable pieces is what makes it possible to write large programs that actually work right.</p>
+    
+    
+    </ol>	
+   
+    
+    <a href="index.html">Home</a>
+    </body>	
+    </html>        
